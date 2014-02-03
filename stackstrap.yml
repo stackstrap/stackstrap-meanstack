@@ -9,7 +9,7 @@ template_description:
   MongoDB, Node.js, Express, and AngularJS based applications.
 
 cleanup:
-  - README.rst
+  - README.md
 
 file_templates:
   - Vagrantfile
