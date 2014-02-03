@@ -1,0 +1,4 @@
+{{ name }}
+==========
+
+This project was created from the {{ template_name }} template.
