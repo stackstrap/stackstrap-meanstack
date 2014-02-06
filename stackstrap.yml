@@ -1,0 +1,20 @@
+#
+# StackStrap meta-data
+#
+
+---
+template_name: MEAN Stack Template
+template_description:
+  MEAN is a boilerplate that provides a nice starting point for
+  MongoDB, Node.js, Express, and AngularJS based applications.
+
+cleanup:
+  - README.md
+
+file_templates:
+  - Vagrantfile
+  - salt/pillar/stackstrap.sls
+  - PROJECT-README
+
+path_templates:
+  - PROJECT-README: README
