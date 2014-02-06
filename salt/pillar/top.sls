@@ -1,9 +1,6 @@
 #
 # StackStrap auto-generated pillar data top.sls file
-# 
-# Generated using the following template:
-# meanstack - 
-# 
+#
 
 base:
   '*':

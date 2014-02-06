@@ -1,7 +1,6 @@
 #
 # Your StackStrap project specific pillars
 #
-#
 
 node_version: 0.10.25
 
