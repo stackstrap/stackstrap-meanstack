@@ -11,4 +11,10 @@ sudo easy_install stackstrap
 stackstrap template add meanstack https://github.com/freesurface/stackstrap-meanstack
 
 stackstrap create mynewproject meanstack
+
+cd mynewproject
+
+vagrant up
 ```
+
+A mental break worth of waiting occurs, but it's worth it, go for a tea.
