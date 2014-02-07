@@ -33,7 +33,7 @@ include:
 
 {{ supervise(short_name, home, app_user, app_group, {
         "meanstack": {
-            "command": "node server 2>&1'",
+            "command": "/home/vagrant/.nvm/v"+pillar["node_version"]+"/bin/node server 2>&1",
             "directory": project
         }
     }) 
