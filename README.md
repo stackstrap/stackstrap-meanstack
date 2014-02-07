@@ -6,7 +6,7 @@ to get yourself running with a good mix of node.js tools
 
 ## Get Going
 
-First (install Vagrant)[http://vagrantup.com], if you have not (that also means VirtualBox, eventually).
+First install [Vagrant](http://vagrantup.com), if you have not (that also means VirtualBox, eventually).
 
 ```bash
 sudo easy_install stackstrap
