@@ -28,7 +28,7 @@ include:
              create_root=False,
              defaults={
               'port': 3000,
-              'try_files': 'try_files $uri @upstream'
+              'try_files': '$uri @upstream'
              })
 }}
 
