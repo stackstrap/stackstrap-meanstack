@@ -25,7 +25,7 @@ First install [Vagrant](http://vagrantup.com), if you have not (that also means 
 ```bash
 sudo easy_install stackstrap
 
-stackstrap template add meanstack https://github.com/freesurface/stackstrap-meanstack
+stackstrap template add meanstack https://github.com/stackstrap/stackstrap-meanstack
 
 stackstrap create mynewproject meanstack
 
