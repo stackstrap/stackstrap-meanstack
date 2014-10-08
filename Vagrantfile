@@ -21,8 +21,7 @@ SCRIPT
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.hostname = "{{ name }}-#{CURRENT_USER}"
 
-  config.vm.box = "ubuntu1204-stackstrap"
-  config.vm.box_url = "http://boxes.stackstrap.org/virtualbox/ubuntu1204-saltlatest.box"
+  config.vm.box = "stackstrap/ubuntu-trusty"
 
   config.vm.network :public_network
 
